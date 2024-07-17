@@ -1,7 +1,11 @@
-# VI Editor Commands
+# VIM Editor Commands
 
 ## What is VI and VIM?
-> Vim stands for Vi IMproved and Vi is short for visual. It used to be Vi IMitation, but there are so many improvements that a name change was appropriate.  Vim is a powerful text editor which includes almost all the commands from the Unix program "Vi" and a lot of new ones.  It is very useful for editing programs and other plain text. All commands are given with the keyboard. This has the advantage that you can keep your fingers on the keyboard and your eyes on the screen.
+> Vim stands for Vi IMproved and Vi is short for visual. It used to be Vi IMitation, but there are so many improvements 
+> that a name change was appropriate.  Vim is a powerful text editor which includes almost all the commands from the 
+> Unix program "Vi" and a lot of new ones.  It is very useful for editing programs and other plain text. All commands 
+> are given with the keyboard. This has the advantage that you can keep your fingers on the keyboard and your eyes on 
+> the screen.
 
 ## Vim Modes
 Vim has seven basic modes:
@@ -11,7 +15,9 @@ Vim has seven basic modes:
 * **Visual Mode**: Visual mode is a flexible and easy way to select a piece of text for an operator.  It is the only way to select a block of text. This is like Normal mode, but the movement commands extend a highlighted area. When a non-movement command is used, it is executed for the highlighted area. If the 'showmode' option is on `-- VISUAL --` is shown at the bottom of the window.
 * **Select Mode**: Select mode looks like Visual mode, but the commands accepted are quite different. This looks most like the MS-Windows selection mode. Typing a printable character deletes the selection and starts Insert mode. If the 'showmode' option is on `-- SELECT --` is shown at the bottom of the window. 
 * **Ex Mode**: Like Command-line mode, but after entering a command you remain in Ex mode. Very limited editing of the command line.
-* **Terminal-Job Mode**: Interacting with a job in a terminal window.  Typed keys go to the job and the job output is displayed in the terminal window.  
+* **Terminal-Job Mode**: Interacting with a job in a terminal window.  Typed keys go to the job and the job output is displayed in the terminal window.
+
+![VIM Modes](images/vim-editor-commands/vim-modes.png)
 
 ## Vim Help
 The following set of keyboard shortcuts are related to the terminal window and the multiple tabs within the terminal window.
@@ -27,10 +33,7 @@ The following set of keyboard shortcuts are related to the terminal window and t
 | Ctrl-w Ctrl-w| Go to the next window. |
 | :h :q Ctrl-d | List all the commands starting with q. Press TAB to iterate through list.|
 | :q | Quit the current window. |
-{:.stretch-table}
 
-Vim Help Commands
-{:.figcaption}
 
 ## Navigation Commands (Motions)
 The following set of commands can only be issued in Normal Mode (Command Mode).
