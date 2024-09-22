@@ -60,18 +60,19 @@ navigation. The set of minikube commands were based minikube version: `v1.34.0`.
 
 
 ### minikube addons
+Manage and configure Minikube addons to enhance cluster functionality.
 
 ```shell
-# Lists all available minikube addons as well as their current statuses
+# List all available Minikube addons and their current statuses
 $ minikube addons list
 
-# Disables the addon `dashboard` within minikube.
-$ minikube addons disable dashboard
-
-# Enables the addon `dashboard` within minikube.
+# Enable the dashboard addon for cluster management
 $ minikube addons enable dashboard
 
-# Enables the addon `metrics-server` within minikube.
+# Disable the dashboard addon when it's no longer needed
+$ minikube addons disable dashboard
+
+# Enable the metrics-server addon for resource metrics
 $ minikube addons enable metrics-server
 
 # Open the dashboard addon in a browser, since it exposes a browser endpoint.
