@@ -9,9 +9,9 @@ processes are running on a single node.
 
 The docker runtime environment is pre-installed in the node.
 
-## Minikube Commands
-This section contains a list of minikube commands that links to a set of examples and also to the official minikube 
-documentation. The set of minikube commands were based minikube version: `v1.34.0`.
+## Minikube Commands Index
+The Minikube Command Index section provides a list of all available Minikube commands, organized by function for easier 
+navigation. The set of minikube commands were based minikube version: `v1.34.0`.
 
 ### Basic Commands:
 * [`minikube start`](#minikube-start) - Initializes and starts a local Kubernetes cluster with options. ([Reference](https://minikube.sigs.k8s.io/docs/commands/start/))
